@@ -103,7 +103,7 @@ export default function HeroSection() {
       {/* 左下キャッチ */}
       <div className="absolute bottom-32 md:bottom-40 left-6 md:left-10 z-30 max-w-[90%]">
         <p className="font-sans text-3xl md:text-5xl font-bold tracking-wider drop-shadow-lg">
-          ＃最強の男を創る
+          存在するなら進化しろ！
         </p>
         <p className="mt-3 text-sm md:text-base text-white/85 tracking-wider">
           メンズヘア専門のプロフェッショナルが、あなたのセンスを引き出す。
