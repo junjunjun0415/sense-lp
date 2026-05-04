@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroSection() {
   return (
     <section className="relative w-full h-screen overflow-hidden bg-black text-white">
@@ -51,7 +53,7 @@ export default function HeroSection() {
             <a href="#menu" className="hover:opacity-70 transition">MENU</a>
             <a href="#stylist" className="hover:opacity-70 transition">STYLIST</a>
             <a href="#salon" className="hover:opacity-70 transition">SALON</a>
-            <a href="/company" className="hover:opacity-70 transition">COMPANY</a>
+            <Link href="/company" className="hover:opacity-70 transition">COMPANY</Link>
           </nav>
           <button
             aria-label="メニュー"

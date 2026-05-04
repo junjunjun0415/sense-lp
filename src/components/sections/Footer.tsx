@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="relative w-full bg-black text-white border-t border-white/10">
@@ -44,7 +46,7 @@ export default function Footer() {
             <li><a href="#stylist" className="hover:text-accent transition">STYLIST</a></li>
             <li><a href="#gallery" className="hover:text-accent transition">GALLERY</a></li>
             <li><a href="#salon" className="hover:text-accent transition">SALON INFO</a></li>
-            <li><a href="/company" className="hover:text-accent transition">COMPANY</a></li>
+            <li><Link href="/company" className="hover:text-accent transition">COMPANY</Link></li>
           </ul>
         </div>
 
